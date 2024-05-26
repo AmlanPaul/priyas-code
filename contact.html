@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/font/WhyteInktrap_Regular/stylesheet.css"
+      rel="stylesheet"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script
+      src="https://kit.fontawesome.com/b2b5a446c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>About</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="logo-section">
+          <a href="index.html">
+            <img src="assets/images/Logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="navigation">
+          <ul id="menu-links">
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="mobile">
+            <a href="javascript:void(0);" class="icon" onclick="menuToggle()"
+              ><i class="fas fa-bars"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="content" role="main">
+      <div class="contact-box">
+        <div class="text-section">
+          <div>
+            <div class="title">
+              <h3>Contact</h3>
+            </div>
+            <p>Get in touch with me</p>
+            <div class="social-icons">
+              <a href="#" target="_blank"
+                ><img src="assets/images/Linkedin.svg" alt="Linkedin"
+              /></a>
+              <a
+                href="https://www.instagram.com/ui.priyanka/?igsh=amMxNXRib2hyb3hu&utm_source=qr"
+                target="_blank"
+                ><img src="assets/images/Instagram png.png" alt="Instagram" />
+              </a>
+              <a href="https://society6.com/bypriyanka" target="_blank"
+                ><img src="assets/images/Society6 png.png" alt="Society6"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="assets/images/Image.png" alt="Image" />
+        </div>
+      </div>
+
+      <div class="message-section">
+        <h2>Send me a message</h2>
+        <form method="post">
+          <div class="form-group">
+            <div class="left">
+              <div>
+                <label for="name" class="label-primary">Name</label>
+                <input type="text" id="name" />
+              </div>
+              <div>
+                <label for="email" class="label-primary email">Email</label>
+                <input type="text" id="email" />
+              </div>
+            </div>
+            <div class="right">
+              <div>
+                <label for="message" class="label-primary">Messsage</label>
+                <textarea id="message" rows="4" class="textarea"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="button-group">
+            <button class="btn btn-primary">Send</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer" role="content">
+      <div class="footer-wrapper">
+        <div class="copyright-section">
+          <p>@2024 Priyanka Rampuria</p>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
